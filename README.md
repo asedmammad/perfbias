@@ -12,7 +12,7 @@ To use the program, simply run the following command:
 ./setperfbias <value>
 ```
 
-Where `<value>` is a number between 1 and 15. The program will set the performance bias for all CPUs on the system to the specified value.
+Where `<value>` is a number between 1 and 15. The program will set the performance bias for all CPU cores on the system to the specified value.
 
 ## Example
 
@@ -22,8 +22,8 @@ To set the performance bias to 7, run the following command:
 ./setperfbias 7
 ```
 
-This will set the performance bias for all CPUs on the system to 7.
+This will set the performance bias for all CPU cores on the system to 7.
 
 ## Future Improvements
 
-- Add support for setting the performance bias for specific CPUs.
+- Add support for setting the performance bias for specific CPU cores.
